@@ -9,7 +9,7 @@ def worker(name, delay):
 
 def worker_calculating(name, a, b, result_queue):
     print("=======================")
-    print(f'{name} worker is starting tahi')
+    print(f'{name} worker is starting tahi kucing')
     result_queue.put(a * b)
 
 result_queue1 = queue.Queue()
