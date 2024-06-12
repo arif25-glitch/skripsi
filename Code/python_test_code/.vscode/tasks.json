@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "python",
             "args": [
-                "data_algorithms.py"
+                "main_scripts.py"
             ],
             "group": {
                 "kind": "build",
