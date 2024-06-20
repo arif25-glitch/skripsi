@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T22:59:35.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Al-rEGk7t-MU4v3tI0jn" version="24.4.0" type="device">
+<mxfile host="app.diagrams.net" modified="2024-06-20T23:06:52.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="fygyjPCasdrCaf3NRJUv" version="24.4.0" type="device">
   <diagram name="Page-1" id="-z4PcpJQ_nKxUZyHL_e7">
     <mxGraphModel dx="872" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="UXaxu7UWlD-UyLW9fmjo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXaxu7UWlD-UyLW9fmjo-1" target="UXaxu7UWlD-UyLW9fmjo-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UXaxu7UWlD-UyLW9fmjo-1" value="Mulai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-1" value="Mulai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="210" y="110" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UXaxu7UWlD-UyLW9fmjo-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXaxu7UWlD-UyLW9fmjo-2" target="UXaxu7UWlD-UyLW9fmjo-4">
@@ -16,7 +16,10 @@
         <mxCell id="UXaxu7UWlD-UyLW9fmjo-2" value="Input Judul" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="210" y="170" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UXaxu7UWlD-UyLW9fmjo-4" value="Scan Judul" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXaxu7UWlD-UyLW9fmjo-4" target="UXaxu7UWlD-UyLW9fmjo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-4" value="&lt;i&gt;Scan &lt;/i&gt;Judul" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="210" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UXaxu7UWlD-UyLW9fmjo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXaxu7UWlD-UyLW9fmjo-6" target="UXaxu7UWlD-UyLW9fmjo-4">
@@ -24,6 +27,38 @@
         </mxCell>
         <mxCell id="UXaxu7UWlD-UyLW9fmjo-6" value="Judul-Judul Skripsi" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="350" y="270" width="95" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXaxu7UWlD-UyLW9fmjo-8" target="UXaxu7UWlD-UyLW9fmjo-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="455" />
+              <mxPoint x="470" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-8" value="&lt;i&gt;Preprocessing Text (casefolding / lowercase)&lt;/i&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="195" y="400" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXaxu7UWlD-UyLW9fmjo-10" target="UXaxu7UWlD-UyLW9fmjo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-10" value="&lt;i&gt;Preprocess Text (Tokenization)&lt;/i&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXaxu7UWlD-UyLW9fmjo-12" target="UXaxu7UWlD-UyLW9fmjo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-12" value="&lt;i&gt;Calculate TF-IDF Score Multiple By Fuzzy Matching Score&lt;/i&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="525" y="210" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXaxu7UWlD-UyLW9fmjo-14" target="UXaxu7UWlD-UyLW9fmjo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-14" value="Analisis Dan Evaluasi Hasil" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UXaxu7UWlD-UyLW9fmjo-16" value="Selesai" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
