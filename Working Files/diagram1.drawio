@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2024-05-14T02:57:36.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" version="24.4.0" etag="kAmmU4ISIzIKKizvY9Ik" type="device">
+  <diagram id="OdBznWuVRIDkl_L019tA" name="Page-1">
+    <mxGraphModel dx="1026" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-1" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Pengecekan Judul Skripsi&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="283.75" y="240" width="152.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NMxiUpryVwW1pO4ZAL9c-3" target="NMxiUpryVwW1pO4ZAL9c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-3" value="Judul Skripsi" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NMxiUpryVwW1pO4ZAL9c-1" target="NMxiUpryVwW1pO4ZAL9c-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NMxiUpryVwW1pO4ZAL9c-8" target="NMxiUpryVwW1pO4ZAL9c-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="NMxiUpryVwW1pO4ZAL9c-8" target="NMxiUpryVwW1pO4ZAL9c-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="400" />
+              <mxPoint x="250" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-8" value="Kemiripan" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="350" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NMxiUpryVwW1pO4ZAL9c-2" target="NMxiUpryVwW1pO4ZAL9c-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NMxiUpryVwW1pO4ZAL9c-12" target="NMxiUpryVwW1pO4ZAL9c-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-12" value="Judul Diterima" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-15" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-16" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NMxiUpryVwW1pO4ZAL9c-17" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
